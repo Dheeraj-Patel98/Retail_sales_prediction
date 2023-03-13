@@ -37,3 +37,21 @@ Step 05: Machine Learning Modelling: Machine Learning model training.
 Step 06: Hyperparameter Fine Tunning: hoose the best values for each of the parameters of the model selected from the previous step.
 
 Step 07: Convert Model Performance to Business Values: Convert the performance of the Machine Learning model into a business result.
+
+## 3.Machine Learning Model Implementation and performance
+At this stage models used : *Linear Regression, *Lasso Regression, *Decision Tree, *Random Forest Regressor
+
+	                       R_square score    
+			Linear Regression	    0.70215
+			
+			Lasso Regression	    0.70217
+			
+      Decision Tree         0.85391
+      
+			Random Forest    	    0.89772
+
+
+
+## 4. Conclusion
+
+Acheived R square is 89.77%, showing predictions of model is higly accurate for the sales forecast. Generated insights by EDA and feature importance provide valuable tools to decide the amount of budget and inventory for upcoming sales.
