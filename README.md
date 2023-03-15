@@ -1,4 +1,4 @@
-# Retail-sales-prediction
+# Retail-Sales-Prediction
 
 <p align="center">
   <img width="460" height="300" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Ro%C3%9Fmann-Markt_in_Berlin.jpg/1024px-Ro%C3%9Fmann-Markt_in_Berlin.jpg">
@@ -38,20 +38,30 @@ Step 06: Hyperparameter Fine Tunning: hoose the best values for each of the para
 
 Step 07: Convert Model Performance to Business Values: Convert the performance of the Machine Learning model into a business result.
 
-## 3.Machine Learning Model Implementation and performance
-At this stage models used : *Linear Regression, *Lasso Regression, *Decision Tree, *Random Forest Regressor
 
-	                       			R_square score    
-			Linear Regression	    0.70215
+
+## 3.Machine Learning Model Implementation and performance
+At this stage models used : *Linear Regression, *Lasso Regression, *Decision Tree,*Random Forest Regressor
+
+               						 Testing score(adjusted_r2_score)
+			Linear Regression			         0.7067
 			
-			Lasso Regression	    0.70217
+			Lasso Regression			         0.7068
 			
-    		Decision Tree	            0.85391
-      
-			Random Forest    	    0.89772
+			Decision Tree                                    0.8273
+			
+			Random Forest    	             	         0.8420
+
+
 
 
 
 ## 4. Conclusion
 
-Acheived R square is 89.77%, showing predictions of model is higly accurate for the sales forecast. Generated insights by EDA and feature importance provide valuable tools to decide the amount of budget and inventory for upcoming sales.
+1. By Linear modeling on our dataset we infer that the MSE was *1559270.5*, RMSE was *1248.71*, R2 was *0.70215*, adjusted R2 was *0.70212*.
+
+2. From Lasso regression analysis R2 was *0.70237*, adjusted R2 was *0.70349* which is a clear indication that our model does not overfit.
+
+3. By decision tree analysis we found that MSE: 0.00384, MAE: 0.04868, RMSE : 0.06199, R2 : 0.85395,adjusted_r2_score :0.8272
+
+4. By Random forest analysis our model improved and the R2 was ***0.8657***, MSE : 0.00269, RMSE : 0.05188, MAE : 0.04048, adjusted_r2_score : 0.8419
